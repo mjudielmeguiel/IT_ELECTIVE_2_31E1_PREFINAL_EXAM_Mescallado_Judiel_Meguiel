@@ -152,6 +152,17 @@ namespace IT_ELECTIVE_2_31E1_PREFINAL_EXAM_Mescallado_Judiel_Meguiel.Controllers
                     CorrectAnswer = "B",
                     Explanation = "Client-side validation runs in the user's browser before data is submitted."
                 },
+                new ExamItem
+                {
+                    Number = 14,
+                    Question = "Why is server-side validation still necessary if client-side validation exists?",
+                    OptionA = "A. Client-side validation can be bypassed",
+                    OptionB = "B. Client-side validation automatically modifies the database",
+                    OptionC = "C. Server-side validation only works with SQLite",
+                    OptionD = "D. Client-side validation cannot display messages",
+                    CorrectAnswer = "A",
+                    Explanation = "Client-side validation can be disabled or bypassed by the user — server-side is the final safeguard."
+                },
             };
 
             return View(answers);
