@@ -19,7 +19,18 @@ namespace IT_ELECTIVE_2_31E1_PREFINAL_EXAM_Mescallado_Judiel_Meguiel.Controllers
                     OptionD = "D. It removes the need for MVC",
                     CorrectAnswer = "C",
                     Explanation = "Database data remains even when app closes; in-memory data is lost."
-                }
+                },
+                  new ExamItem
+                {
+                    Number = 2,
+                    Question = "Which approach is being used when an existing database is used to generate EF Core entity classes?",
+                    OptionA = "A. Code-First",
+                    OptionB = "B. Database-First",
+                    OptionC = "C. Model-First",
+                    OptionD = "D. Controller-First",
+                    CorrectAnswer = "B",
+                    Explanation = "Database-First approach generates entity classes from an existing database."
+                },
             };
 
             return View(answers);
