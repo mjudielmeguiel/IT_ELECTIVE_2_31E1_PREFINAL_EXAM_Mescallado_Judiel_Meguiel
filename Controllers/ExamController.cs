@@ -86,6 +86,17 @@ namespace IT_ELECTIVE_2_31E1_PREFINAL_EXAM_Mescallado_Judiel_Meguiel.Controllers
                     CorrectAnswer = "B",
                     Explanation = "One Section can have many Students = One-to-Many relationship."
                 },
+                   new ExamItem
+                {
+                    Number = 8,
+                    Question = "In the following example, what is SectionId? public int SectionId { get; set; }",
+                    OptionA = "A. Primary key of Student",
+                    OptionB = "B. Foreign key referencing Section",
+                    OptionC = "C. Navigation property",
+                    OptionD = "D. Database connection string",
+                    CorrectAnswer = "B",
+                    Explanation = "SectionId stores the Primary Key of the linked Section = Foreign Key."
+                },
             };
 
             return View(answers);
