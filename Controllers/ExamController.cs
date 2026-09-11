@@ -31,6 +31,17 @@ namespace IT_ELECTIVE_2_31E1_PREFINAL_EXAM_Mescallado_Judiel_Meguiel.Controllers
                     CorrectAnswer = "B",
                     Explanation = "Database-First approach generates entity classes from an existing database."
                 },
+                   new ExamItem
+                {
+                    Number = 3,
+                    Question = "What is the primary purpose of Entity Framework Core?",
+                    OptionA = "A. To create HTML pages automatically",
+                    OptionB = "B. To replace the MVC Controller",
+                    OptionC = "C. To map objects in code to relational database data",
+                    OptionD = "D. To replace the C# compiler",
+                    CorrectAnswer = "C",
+                    Explanation = "EF Core is an Object-Relational Mapper that maps C# objects to database tables."
+                },
             };
 
             return View(answers);
