@@ -196,7 +196,7 @@ namespace IT_ELECTIVE_2_31E1_PREFINAL_EXAM_Mescallado_Judiel_Meguiel.Controllers
                     CorrectAnswer = "B",
                     Explanation = "try...catch prevents the application from crashing by handling errors gracefully."
                 },
-                new ExamItem
+                   new ExamItem
                 {
                     Number = 18,
                     Question = "Which middleware is commonly used in ASP.NET Core for centralized exception handling?",
@@ -206,6 +206,17 @@ namespace IT_ELECTIVE_2_31E1_PREFINAL_EXAM_Mescallado_Judiel_Meguiel.Controllers
                     OptionD = "D. UseMvcDatabase()",
                     CorrectAnswer = "B",
                     Explanation = "UseExceptionHandler() catches unhandled exceptions centrally and redirects to an error page."
+                },
+                   new ExamItem
+                {
+                    Number = 19,
+                    Question = "A user requests /Student/999, but Student 999 does not exist. What would be the most appropriate response?",
+                    OptionA = "A. Display the student's information anyway",
+                    OptionB = "B. Display a Not Found (404) response/page",
+                    OptionC = "C. Delete Student 999",
+                    OptionD = "D. Create Student 999 automatically",
+                    CorrectAnswer = "B",
+                    Explanation = "Standard HTTP response — return 404 when the requested resource does not exist."
                 },
             };
 
