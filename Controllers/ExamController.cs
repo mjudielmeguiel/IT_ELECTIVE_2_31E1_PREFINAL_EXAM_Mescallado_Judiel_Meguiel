@@ -152,7 +152,7 @@ namespace IT_ELECTIVE_2_31E1_PREFINAL_EXAM_Mescallado_Judiel_Meguiel.Controllers
                     CorrectAnswer = "B",
                     Explanation = "Client-side validation runs in the user's browser before data is submitted."
                 },
-                new ExamItem
+                   new ExamItem
                 {
                     Number = 14,
                     Question = "Why is server-side validation still necessary if client-side validation exists?",
@@ -162,6 +162,17 @@ namespace IT_ELECTIVE_2_31E1_PREFINAL_EXAM_Mescallado_Judiel_Meguiel.Controllers
                     OptionD = "D. Client-side validation cannot display messages",
                     CorrectAnswer = "A",
                     Explanation = "Client-side validation can be disabled or bypassed by the user — server-side is the final safeguard."
+                },
+                  new ExamItem
+                {
+                    Number = 15,
+                    Question = "A school requires every student to have a unique Student Number. Which rule best represents this requirement?",
+                    OptionA = "A. Student Number should always be nullable",
+                    OptionB = "B. Student Number should be unique",
+                    OptionC = "C. Student Number should always be the same",
+                    OptionD = "D. Student Number should contain only spaces",
+                    CorrectAnswer = "B",
+                    Explanation = "Business rule mandates that no two students may share the same Student Number."
                 },
             };
 
