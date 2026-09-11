@@ -185,6 +185,17 @@ namespace IT_ELECTIVE_2_31E1_PREFINAL_EXAM_Mescallado_Judiel_Meguiel.Controllers
                     CorrectAnswer = "A",
                     Explanation = "Database-level constraints are enforced regardless of application validation — they cannot be bypassed."
                 },
+                  new ExamItem
+                {
+                    Number = 17,
+                    Question = "What is the purpose of a try...catch block in a controller?",
+                    OptionA = "A. To create navigation properties",
+                    OptionB = "B. To catch and handle exceptions that may occur during execution",
+                    OptionC = "C. To generate database tables",
+                    OptionD = "D. To perform client-side validation",
+                    CorrectAnswer = "B",
+                    Explanation = "try...catch prevents the application from crashing by handling errors gracefully."
+                },
             };
 
             return View(answers);
