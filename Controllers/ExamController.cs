@@ -141,6 +141,17 @@ namespace IT_ELECTIVE_2_31E1_PREFINAL_EXAM_Mescallado_Judiel_Meguiel.Controllers
                     CorrectAnswer = "A",
                     Explanation = "Include() loads the related navigation property along with the main entity in a single query."
                 },
+                  new ExamItem
+                {
+                    Number = 13,
+                    Question = "Which type of validation occurs in the browser before a request is sent to the server?",
+                    OptionA = "A. Database-level validation",
+                    OptionB = "B. Client-side validation",
+                    OptionC = "C. Server-side validation",
+                    OptionD = "D. EF Core migration validation",
+                    CorrectAnswer = "B",
+                    Explanation = "Client-side validation runs in the user's browser before data is submitted."
+                },
             };
 
             return View(answers);
