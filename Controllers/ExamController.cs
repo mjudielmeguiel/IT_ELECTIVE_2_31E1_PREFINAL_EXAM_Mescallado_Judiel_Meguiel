@@ -64,6 +64,17 @@ namespace IT_ELECTIVE_2_31E1_PREFINAL_EXAM_Mescallado_Judiel_Meguiel.Controllers
                     CorrectAnswer = "C",
                     Explanation = "The scaffold command reverse-engineers an existing database into entity classes and DbContext."
                 },
+                   new ExamItem
+                {
+                    Number = 6,
+                    Question = "Where is a database connection string commonly stored in an ASP.NET Core MVC application?",
+                    OptionA = "A. Program.cs only",
+                    OptionB = "B. appsettings.json",
+                    OptionC = "C. Index.cshtml",
+                    OptionD = "D. Student.cs",
+                    CorrectAnswer = "B",
+                    Explanation = "Application configuration such as connection strings is stored in appsettings.json."
+                },
             };
 
             return View(answers);
