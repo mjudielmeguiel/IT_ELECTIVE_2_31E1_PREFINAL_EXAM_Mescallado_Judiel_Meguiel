@@ -42,6 +42,17 @@ namespace IT_ELECTIVE_2_31E1_PREFINAL_EXAM_Mescallado_Judiel_Meguiel.Controllers
                     CorrectAnswer = "C",
                     Explanation = "EF Core is an Object-Relational Mapper that maps C# objects to database tables."
                 },
+                   new ExamItem
+                {
+                    Number = 4,
+                    Question = "Which EF Core component is primarily responsible for communicating with the database?",
+                    OptionA = "A. DbContext",
+                    OptionB = "B. DbSetView",
+                    OptionC = "C. ControllerContext",
+                    OptionD = "D. RazorContext",
+                    CorrectAnswer = "A",
+                    Explanation = "DbContext manages database connections, entity tracking, and queries."
+                },
             };
 
             return View(answers);
