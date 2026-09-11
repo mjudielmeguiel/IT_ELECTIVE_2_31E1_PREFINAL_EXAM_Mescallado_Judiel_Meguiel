@@ -53,6 +53,17 @@ namespace IT_ELECTIVE_2_31E1_PREFINAL_EXAM_Mescallado_Judiel_Meguiel.Controllers
                     CorrectAnswer = "A",
                     Explanation = "DbContext manages database connections, entity tracking, and queries."
                 },
+                   new ExamItem
+                {
+                    Number = 5,
+                    Question = "What does the following command primarily do? dotnet ef dbcontext scaffold",
+                    OptionA = "A. Deletes the database",
+                    OptionB = "B. Creates a new MVC project",
+                    OptionC = "C. Generates EF Core models and a DbContext from an existing database",
+                    OptionD = "D. Starts the MVC application",
+                    CorrectAnswer = "C",
+                    Explanation = "The scaffold command reverse-engineers an existing database into entity classes and DbContext."
+                },
             };
 
             return View(answers);
