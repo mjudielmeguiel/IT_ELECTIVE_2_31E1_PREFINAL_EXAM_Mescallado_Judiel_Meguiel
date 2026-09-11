@@ -196,6 +196,17 @@ namespace IT_ELECTIVE_2_31E1_PREFINAL_EXAM_Mescallado_Judiel_Meguiel.Controllers
                     CorrectAnswer = "B",
                     Explanation = "try...catch prevents the application from crashing by handling errors gracefully."
                 },
+                new ExamItem
+                {
+                    Number = 18,
+                    Question = "Which middleware is commonly used in ASP.NET Core for centralized exception handling?",
+                    OptionA = "A. UseDatabase()",
+                    OptionB = "B. UseExceptionHandler()",
+                    OptionC = "C. UseValidationHandler()",
+                    OptionD = "D. UseMvcDatabase()",
+                    CorrectAnswer = "B",
+                    Explanation = "UseExceptionHandler() catches unhandled exceptions centrally and redirects to an error page."
+                },
             };
 
             return View(answers);
