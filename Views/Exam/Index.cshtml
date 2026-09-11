@@ -1,0 +1,66 @@
+﻿@model List<IT_ELECTIVE_2_31E1_PREFINAL_EXAM_Mescallado_Judiel_Meguiel.Models.ExamItem>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prefinal Examination</title>
+    <style>
+            body {
+                font-family: Arial, sans-serif;
+                max-width: 900px;
+                margin: 0 auto;
+                padding: 20px;
+            }
+
+            .item {
+                margin: 20px 0;
+                padding: 18px;
+                border: 1px solid #ccc;
+                border-radius: 6px;
+                background: #f9f9f9;
+            }
+
+            h4 {
+                margin: 0 0 10px 0;
+                font-size: 16px;
+            }
+
+            .answer {
+                color: #003366;
+                font-weight: bold;
+                margin-top: 8px;
+            }
+
+            .explanation {
+                color: #444;
+                font-style: italic;
+                margin-top: 4px;
+            }
+
+            hr {
+                margin: 25px 0;
+                border: none;
+                border-top: 1px solid #ddd;
+            }
+    </style>
+</head>
+<body>
+
+    <h1>IT Elective 2 — Prefinal Examination</h1>
+    <h3>Name: Judiel Meguiel Mescallado | Section: 31E1</h3>
+    <p>Date: September 12, 2026</p>
+    <hr />
+
+    @foreach (var item in Model)
+    {
+        <div class="item">
+            <h4>@item.Number. @item.Question</h4>
+            <p>@item.OptionA<br />@item.OptionB<br />@item.OptionC<br />@item.OptionD</p>
+            <p class="answer">Answer: @item.CorrectAnswer</p>
+            <p class="explanation">Explanation: @item.Explanation</p>
+        </div>
+    }
+
+</body>
+</html>
