@@ -108,6 +108,17 @@ namespace IT_ELECTIVE_2_31E1_PREFINAL_EXAM_Mescallado_Judiel_Meguiel.Controllers
                     CorrectAnswer = "B",
                     Explanation = "Navigation properties allow traversing relationships between entities."
                 },
+                   new ExamItem
+                {
+                    Number = 10,
+                    Question = "What does .Include() generally allow EF Core to do?",
+                    OptionA = "A. Delete the Section table",
+                    OptionB = "B. Load related Section data together with Students",
+                    OptionC = "C. Create a new Student",
+                    OptionD = "D. Validate Student input",
+                    CorrectAnswer = "B",
+                    Explanation = ".Include() performs eager loading — fetches related data along with the main entity."
+                },
             };
 
             return View(answers);
