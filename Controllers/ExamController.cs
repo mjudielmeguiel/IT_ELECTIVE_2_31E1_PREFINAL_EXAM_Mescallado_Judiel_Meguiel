@@ -119,6 +119,17 @@ namespace IT_ELECTIVE_2_31E1_PREFINAL_EXAM_Mescallado_Judiel_Meguiel.Controllers
                     CorrectAnswer = "B",
                     Explanation = ".Include() performs eager loading — fetches related data along with the main entity."
                 },
+                   new ExamItem
+                {
+                    Number = 11,
+                    Question = "Why might a ViewModel be used when displaying Student and Section information?",
+                    OptionA = "A. To replace the database",
+                    OptionB = "B. To combine or shape the data specifically needed by the view",
+                    OptionC = "C. To automatically create database tables",
+                    OptionD = "D. To prevent controllers from using LINQ",
+                    CorrectAnswer = "B",
+                    Explanation = "ViewModel combines and shapes data exactly as required by the View."
+                },
             };
 
             return View(answers);
