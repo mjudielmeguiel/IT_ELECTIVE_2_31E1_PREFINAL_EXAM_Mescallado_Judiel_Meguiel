@@ -174,6 +174,17 @@ namespace IT_ELECTIVE_2_31E1_PREFINAL_EXAM_Mescallado_Judiel_Meguiel.Controllers
                     CorrectAnswer = "B",
                     Explanation = "Business rule mandates that no two students may share the same Student Number."
                 },
+                  new ExamItem
+                {
+                    Number = 16,
+                    Question = "Which is the best reason for having a database-level unique constraint on StudentNumber?",
+                    OptionA = "A. It protects data integrity even if application-level validation is bypassed",
+                    OptionB = "B. It makes Razor Views render faster",
+                    OptionC = "C. It removes the need for a Controller",
+                    OptionD = "D. It automatically creates a ViewModel",
+                    CorrectAnswer = "A",
+                    Explanation = "Database-level constraints are enforced regardless of application validation — they cannot be bypassed."
+                },
             };
 
             return View(answers);
