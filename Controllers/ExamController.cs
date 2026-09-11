@@ -130,6 +130,17 @@ namespace IT_ELECTIVE_2_31E1_PREFINAL_EXAM_Mescallado_Judiel_Meguiel.Controllers
                     CorrectAnswer = "B",
                     Explanation = "ViewModel combines and shapes data exactly as required by the View."
                 },
+                   new ExamItem
+                {
+                    Number = 12,
+                    Question = "Consider this query: var students = _context.Students.Include(s => s.Section).ToList(); Main benefit of Include()?",
+                    OptionA = "A. It loads the related Section navigation property",
+                    OptionB = "B. It creates a Section object manually",
+                    OptionC = "C. It removes the foreign key",
+                    OptionD = "D. It prevents the query from accessing the database",
+                    CorrectAnswer = "A",
+                    Explanation = "Include() loads the related navigation property along with the main entity in a single query."
+                },
             };
 
             return View(answers);
