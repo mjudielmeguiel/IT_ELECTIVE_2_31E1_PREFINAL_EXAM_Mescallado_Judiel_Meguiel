@@ -75,6 +75,17 @@ namespace IT_ELECTIVE_2_31E1_PREFINAL_EXAM_Mescallado_Judiel_Meguiel.Controllers
                     CorrectAnswer = "B",
                     Explanation = "Application configuration such as connection strings is stored in appsettings.json."
                 },
+                   new ExamItem
+                {
+                    Number = 7,
+                    Question = "A Student belongs to exactly one Section, while a Section can contain many students. What type of relationship is this?",
+                    OptionA = "A. One-to-One",
+                    OptionB = "B. One-to-Many",
+                    OptionC = "C. Many-to-Many",
+                    OptionD = "D. Many-to-One only",
+                    CorrectAnswer = "B",
+                    Explanation = "One Section can have many Students = One-to-Many relationship."
+                },
             };
 
             return View(answers);
