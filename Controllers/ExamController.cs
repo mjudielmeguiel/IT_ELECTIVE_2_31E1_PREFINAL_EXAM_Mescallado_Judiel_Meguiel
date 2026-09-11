@@ -218,6 +218,17 @@ namespace IT_ELECTIVE_2_31E1_PREFINAL_EXAM_Mescallado_Judiel_Meguiel.Controllers
                     CorrectAnswer = "B",
                     Explanation = "Standard HTTP response — return 404 when the requested resource does not exist."
                 },
+                   new ExamItem
+                {
+                    Number = 20,
+                    Question = "A student already belongs to Section A for a particular subject. The application attempts to assign the same student to Section A again. What is the primary concern?",
+                    OptionA = "A. Data integrity",
+                    OptionB = "B. HTML formatting",
+                    OptionC = "C. CSS inheritance",
+                    OptionD = "D. Razor syntax",
+                    CorrectAnswer = "A",
+                    Explanation = "Preventing duplicate or redundant entries preserves data integrity within the system."
+                }
             };
 
             return View(answers);
