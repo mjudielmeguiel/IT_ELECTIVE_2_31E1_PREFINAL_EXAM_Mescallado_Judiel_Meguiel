@@ -97,6 +97,17 @@ namespace IT_ELECTIVE_2_31E1_PREFINAL_EXAM_Mescallado_Judiel_Meguiel.Controllers
                     CorrectAnswer = "B",
                     Explanation = "SectionId stores the Primary Key of the linked Section = Foreign Key."
                 },
+                   new ExamItem
+                {
+                    Number = 9,
+                    Question = "What is the purpose of a navigation property such as public Section Section { get; set; }?",
+                    OptionA = "A. It stores the database password",
+                    OptionB = "B. It represents a relationship to another entity",
+                    OptionC = "C. It creates a new database",
+                    OptionD = "D. It validates the student's name",
+                    CorrectAnswer = "B",
+                    Explanation = "Navigation properties allow traversing relationships between entities."
+                },
             };
 
             return View(answers);
